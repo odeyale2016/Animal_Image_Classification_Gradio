@@ -702,9 +702,12 @@ Powered by **PyTorch + Gradio**
 # Launch Application
 ##############################################################
 
-if __name__ == "__main__":
+import os
 
+if __name__ == "__main__":
     demo.launch(
-        debug=True,
+        server_name="0.0.0.0",
+        server_port=int(os.environ.get("PORT", 7860)),
+        debug=False,
         show_error=True
     )
