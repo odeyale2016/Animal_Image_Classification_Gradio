@@ -1,4 +1,13 @@
-streamlit
-torch
-torchvision
-Pillow
+gradio==5.38.2
+
+torch>=2.3
+
+torchvision>=0.18
+
+pillow
+
+pandas
+
+plotly
+
+reportlab
