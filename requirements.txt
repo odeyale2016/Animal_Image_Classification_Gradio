@@ -1,8 +1,6 @@
 gradio==5.38.2
-
 torch==2.5.1
 torchvision==0.20.1
-
 pandas
 pillow
 plotly
